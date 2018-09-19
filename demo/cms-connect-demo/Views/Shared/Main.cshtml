@@ -1,0 +1,16 @@
+﻿@model RenderingModel
+    
+<!DOCTYPE html>
+<html lang="@Sitecore.Context.Language.ToString()">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, target-densityDpi=device-dpi, initial-scale=1, user-scalable=no" />    
+    <link type="text/css" rel="stylesheet" href="/Content/Custom.css" />
+    <link type="text/css" rel="stylesheet" href="/Content/bootstrap.min.css" />
+    <script src="@Url.Content("/Scripts/jquery-1.10.2.min.js")"></script>
+    <script src="@Url.Content("/Scripts/bootstrap.min.js")"></script>
+</head>
+<body>
+    @Html.Sitecore().Placeholder("Page Container")
+</body>
+</html>
